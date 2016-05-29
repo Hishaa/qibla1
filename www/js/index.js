@@ -84,6 +84,7 @@ function onError(error) {
 navigator.compass.getCurrentHeading(onSuccess, onError);
 
 
+/*
 
 function onSuccess(heading) {
     var element = document.getElementById('heading');
@@ -99,17 +100,15 @@ var options = {
 }; // Update every 3 seconds
 
 var watchID = navigator.compass.watchHeading(onSuccess, onError, options);
+*/
 
 
 
 
-
-
-var watchID = navigator.compass.watchHeading(onSuccess, onError, options);
-
+ 
 // ... later on ...
 
-navigator.compass.clearWatch(watchID);
+//navigator.compass.clearWatch(watchID);
 	
 	
  },
