@@ -73,7 +73,7 @@ navigator.geolocation.getCurrentPosition(onSuccess, onError);
 	hisham :function ()
 	{
 	
-	function onSuccess(heading) {
+	/*function onSuccess(heading) {
     alert('Heading: ' + heading.magneticHeading);
 };
 
@@ -82,9 +82,9 @@ function onError(error) {
 };
 
 navigator.compass.getCurrentHeading(onSuccess, onError);
+*/
 
 
-/*
 
 function onSuccess(heading) {
     var element = document.getElementById('heading');
@@ -100,7 +100,7 @@ var options = {
 }; // Update every 3 seconds
 
 var watchID = navigator.compass.watchHeading(onSuccess, onError, options);
-*/
+
 
 
 
